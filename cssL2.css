@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Fresca', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}   
+
+body {
+    
+    background-image: url("tree2.png");
+    background-repeat: no-repeat;
+ }
+
+#my_menu .submenu ul {
+	display: none;
+	list-style-type: none;
+    margin-top: 0px;
+		
+}
+
+#my_menu .submenu:hover ul {
+	display: block;
+}
